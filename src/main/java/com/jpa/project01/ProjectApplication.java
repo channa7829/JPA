@@ -15,6 +15,8 @@ public class ProjectApplication {
 		
 		PlayerRepo playerRepobean = context.getBean("playerRepo", PlayerRepo.class);
 		
+		//hi kotresh
+		
 		Player player = new Player();
 		player.setPlayerId(101);
 		player.setAge(28);
